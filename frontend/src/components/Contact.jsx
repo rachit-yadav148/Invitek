@@ -57,7 +57,7 @@ export default function Contact() {
   return (
     <>
       {/* Page Header */}
-      <div className="bg-gray-100">
+      <div className="bg-gray-100" >
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center">
           <h1 className="text-4xl font-bold text-gray-900">Contact Us</h1>
           <p className="text-lg text-gray-600 mt-2">

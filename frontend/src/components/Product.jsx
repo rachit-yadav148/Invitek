@@ -27,13 +27,13 @@ export default function Products() {
             id: 1,
             name: 'Point of Care Diagnostic Devices',
             description: 'One device can perform more than 50 different blood tests. High-quality, reliable, and intelligent medical solutions.',
-            img: 'https://placehold.co/600x400/00a0d1/ffffff?text=POC+Device',
+            img: '/images/poc.jpg',
           },
           {
             id: 2,
             name: 'Blood Gas Analysers',
             description: 'Cutting-edge analysers for critical care diagnostics. Designed with precision, passion, and reliability.',
-            img: 'https://placehold.co/600x400/00a0d1/ffffff?text=Blood+Gas+Analyser',
+            img: '/images/blood.jpg',
           },
           {
             id: 3,

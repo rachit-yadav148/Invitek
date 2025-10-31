@@ -72,7 +72,7 @@ const Header = () => {
               Invitek
             </span>
             <span className="text-3xl font-bold text-gray-700">
-              .in
+             
             </span>
           </Link>
 
@@ -227,32 +227,32 @@ const Home = () => {
     { 
       name: 'Point of Care Diagnostics', 
       icon: FlaskConical, 
-      img: 'https://placehold.co/600x400/00a0d1/ffffff?text=POC+Device'
+      img: '/images/poc.jpg'
     },
     { 
       name: 'Blood Gas Analysers', 
       icon: Beaker, 
-      img: 'https://placehold.co/600x400/00a0d1/ffffff?text=Blood+Gas+Analyser'
+      img: '/images/blood.jpg'
     },
     { 
       name: 'Medical Ventilators', 
       icon: HeartPulse, 
-      img: 'https://placehold.co/600x400/00a0d1/ffffff?text=Ventilator'
+      img: '/images/ventilator.jpg'
     },
     { 
       name: 'Patient Monitors', 
       icon: Monitor, 
-      img: 'https://placehold.co/600x400/00a0d1/ffffff?text=Patient+Monitor'
+      img: '/images/monitor.jpg'
     },
     { 
       name: 'Ultrasound', 
       icon: Heart, 
-      img: 'https://placehold.co/600x400/00a0d1/ffffff?text=Ultrasound'
+      img: '/images/ultrasound.jpg'
     },
     { 
       name: 'Endoscopy', 
       icon: FileScan, 
-      img: 'https://placehold.co/600x400/00a0d1/ffffff?text=Endoscopy'
+      img: '/images/endoscopy.jpg'
     },
   ];
 
@@ -263,7 +263,7 @@ const Home = () => {
         {/* Background Image */}
         <div className="absolute inset-0">
           <img
-            src="/mainimage.jpg"
+            src="/images/mainimage.jpg"
             alt="Advanced medical technology"
             className="w-full h-full object-cover"
           />
@@ -330,7 +330,7 @@ const Home = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
              <img 
-               src="https://placehold.co/600x400/e0f2fe/0ea5e9?text=Invitek+Innovation" 
+               src="images/healthcare.jpg" 
                alt="Medical Technology" 
                className="rounded-lg shadow-xl w-full border border-gray-200"
              />
@@ -567,37 +567,37 @@ const Products = () => {
             id: 1,
             name: 'Point of Care Diagnostic Devices',
             description: 'One device can perform more than 50 different blood tests. High-quality, reliable, and intelligent medical solutions.',
-            img: 'https://placehold.co/600x400/00a0d1/ffffff?text=POC+Device',
+            img: '/images/poc.jpg',
           },
           {
             id: 2,
             name: 'Blood Gas Analysers',
             description: 'Cutting-edge analysers for critical care diagnostics. Designed with precision, passion, and reliability.',
-            img: 'https://placehold.co/600x400/00a0d1/ffffff?text=Blood+Gas+Analyser',
+            img: '/images/blood.jpg',
           },
           {
             id: 3,
             name: 'Medical Ventilators',
             description: 'Advanced respiratory support for patients. Ensuring clinical excellence and operational efficiency.',
-            img: 'https://placehold.co/600x400/00a0d1/ffffff?text=Ventilator',
+            img: '/images/ventilator.jpg',
           },
           {
             id: 4,
             name: 'Patient Monitors',
             description: 'Comprehensive monitoring systems for all patient needs, from critical care to general wards.',
-            img: 'https://placehold.co/600x400/00a0d1/ffffff?text=Patient+Monitor',
+            img: '/images/monitor.jpg',
           },
           {
             id: 5,
             name: 'Ultrasound',
             description: 'High-resolution ultrasound imaging systems for a variety of diagnostic applications.',
-            img: 'https://placehold.co/600x400/00a0d1/ffffff?text=Ultrasound',
+            img: '/images/ultrasound.jpg',
           },
           {
             id: 6,
             name: 'Endoscopy',
             description: 'State-of-the-art endoscopy solutions for minimally invasive procedures and diagnostics.',
-            img: 'https://placehold.co/600x400/00a0d1/ffffff?text=Endoscopy',
+            img: '/images/endoscopy.jpg',
           },
         ];
         
